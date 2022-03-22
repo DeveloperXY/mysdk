@@ -5,14 +5,10 @@
   "author": "Mohammed Aouf Zouag <mohammed.zouag@sentiance.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/index.js",
-  "typings": "lib/index.d.ts",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "files": [
-    "lib"
+    "dist"
   ],
   "scripts": {
     "tsc": "tsc",

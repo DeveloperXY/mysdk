@@ -2,13 +2,16 @@
   "name": "root",
   "private": false,
   "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.1.3",
     "lerna": "^4.0.0",
+    "rollup": "^2.70.1",
     "typescript": "^4.6.2"
   },
   "dependencies": {
     "@types/node": "^17.0.22"
   },
   "scripts": {
-    "publish": "lerna run tsc && lerna publish"
+    "publish": "npm run rollup && lerna publish",
+    "rollup": "lerna exec -- rollup -c ../../rollup.config.js"
   }
 }
