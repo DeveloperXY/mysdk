@@ -7,8 +7,5 @@
   },
   "dependencies": {
     "@types/node": "^17.0.22"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }
